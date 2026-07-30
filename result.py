@@ -49,7 +49,6 @@ sorted_students = sorted(
     processed_students.items(), key=lambda x: x[1]["percentage"], reverse=True
 )
 
-
 print("=== STUDENT SEMESTER RESULTS ===")
 for name, data in processed_students.items():
     print(
