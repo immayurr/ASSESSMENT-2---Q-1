@@ -19,7 +19,6 @@ def assign_grade(percentage):
     else:
         return "F"
 
-
 processed_students = {}
 
 for name, marks in students.items():
